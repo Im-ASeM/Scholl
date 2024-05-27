@@ -1,5 +1,5 @@
+// model for Add new Student
 using System.ComponentModel.DataAnnotations;
-
 public class MStudentNew
 {
     public string FullName { get; set; }

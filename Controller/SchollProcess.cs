@@ -4,14 +4,14 @@ using Microsoft.AspNetCore.Mvc;
 [ApiController]
 public class SchollProcess : Controller
 {
-    IStudent SchoolP;
+    IStudent SchoolP; //نمونه سازی اینترفیس
     public SchollProcess(IStudent _SchoolP)
     {
-        SchoolP = _SchoolP;
+        SchoolP = _SchoolP; //متصل کردن اینترفیس به ریپوزیتوری
     }
 
-    [HttpGet]
-    public IActionResult ShowStudent(int id){
+    [HttpGet] // نشان دادن یک دانش آموز با آیدی
+    public IActionResult ShowStudent(int id){  
         Student finder = SchoolP.ShowProfile(id);
         if(finder ==null){
             return NotFound();
@@ -28,7 +28,7 @@ public class SchollProcess : Controller
         }
     }
 
-    [HttpGet]
+    [HttpGet] // نشان دادن همه دانش آموزان
     public IActionResult ShowStudents(){
         List<MStudentSimple> results = new List<MStudentSimple>();
 

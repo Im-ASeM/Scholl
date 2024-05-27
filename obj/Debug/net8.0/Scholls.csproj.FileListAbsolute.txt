@@ -135,3 +135,4 @@ C:\Users\asemn\OneDrive\Desktop\Code\C#\Scholls\obj\Debug\net8.0\refint\Scholls.
 C:\Users\asemn\OneDrive\Desktop\Code\C#\Scholls\obj\Debug\net8.0\Scholls.pdb
 C:\Users\asemn\OneDrive\Desktop\Code\C#\Scholls\obj\Debug\net8.0\Scholls.genruntimeconfig.cache
 C:\Users\asemn\OneDrive\Desktop\Code\C#\Scholls\obj\Debug\net8.0\ref\Scholls.dll
+C:\Users\asemn\OneDrive\Desktop\Code\C#\Scholls\obj\Debug\net8.0\Scholls.sourcelink.json

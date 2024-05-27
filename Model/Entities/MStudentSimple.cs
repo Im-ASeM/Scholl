@@ -1,5 +1,5 @@
+// model for show student with out Unnecessary information
 using System.ComponentModel.DataAnnotations;
-
 public class MStudentSimple
 {
     public int Id { get; set; }

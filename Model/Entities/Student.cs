@@ -4,13 +4,13 @@ using System.Data;
 public class Student
 {
     [Key]
-    public int Id { get; set; }
-    public string FullName { get; set; }
-    public string StudentClass { get; set; }
-    public string NationalCode { get; set; }
-    public decimal Score { get; set; }
-    public bool isPass { get; set; }
+    public int Id { get; set; }  // آیدی !
+    public string FullName { get; set; } // نام کامل
+    public string StudentClass { get; set; } // شماره کلاس
+    public string NationalCode { get; set; } // کد ملی
+    public decimal Score { get; set; } // نمره
+    public bool isPass { get; set; } //آیا پاس شده ؟ یا مردود شده؟
     public DateTime CreateTime { get; set; }
-    public DateTime ModifyTime { get; set; }
+    public DateTime ModifyTime { get; set; } 
 
 }
