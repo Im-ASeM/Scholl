@@ -1,0 +1,6 @@
+@Scholls_HostAddress = http://localhost:5124
+
+GET {{Scholls_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
